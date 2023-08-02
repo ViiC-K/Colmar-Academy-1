@@ -12,6 +12,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;       /* ลบขีดเส้นใต้ link */
+    list-style: none;           /* ลบจุดหน้า ul */
     /* outline: 1px solid; */
 
 }
@@ -188,6 +190,9 @@ nav{
 .course-w-c-wct p{
     margin-top: 8px;
 }
+..info-r-img-m{
+    display: none;
+}
 
 .course-w-c img{
     width: 100%;
@@ -250,4 +255,258 @@ footer p{
 }
 .ft-r{
     float: right;
+}
+/* ################################################################################### */
+@media screen and (max-width:550px){
+
+body{
+    /* background-color: blue; */
+    width: 100vw;
+}
+nav{
+    width: 100%;
+    
+}
+
+.menu-r-m{
+
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    
+
+}
+.menu-r-m ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.menu-r,
+.logo-l{
+    display: none;
+}
+
+ul{
+    width: 100%;
+}
+li{
+    display: flex;
+ 
+    align-items: center;
+}
+
+/* ############################################## */
+
+
+.hero{
+    width: 100%;
+    display: flex;   
+    flex-flow: column ;
+    padding: 0;
+    background-color: rgba(216, 216, 216, 1);
+}
+.hero-l{
+    width: 100%;
+    /* display: flex; */
+   
+}
+.hero-l img{
+     width: 100%;
+}
+
+.hero-r{
+    width: 100%;
+    /* display: flex;  */
+    /* flex-flow: column wrap;
+    align-items: center; */
+    
+}
+.hero-r p{
+
+}
+.hero-btn{
+    width: 100%;
+    
+    padding: 8px 0;
+    border: 0;
+    background-color: rgba(155, 155, 155, 1) ;
+    color: white;
+    border: 0;
+    margin-bottom: 32px;
+    margin-top: 24px;
+    
+}
+.hero-r h1{
+    margin-top: 32px;
+}
+/* ############################################## */
+
+.information{
+    
+    display: flex;
+    width: 100%;
+    flex-flow: column wrap;
+/* ___________________ */
+}
+.info-l{
+    display: none;
+   
+        
+}
+/* ________________ */
+.info-r{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* padding: 16px; */
+}
+.info-r-c{
+    display: flex;
+    margin-top: 16px;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 64px;
+    
+}
+.info-r-c div{
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    padding: 0 16px ;
+    
+}
+.info-r-c p{
+    margin: 8px 0;
+}
+.info-r-c img{
+    width: 100%;
+    padding: 16px;
+}
+.info-r-img{
+    display: none;
+}
+
+
+/* ######################## */
+.course{
+    background: white;
+    padding: 0;
+
+}
+.course h2{
+    text-align: center;
+    padding: 32px 0 16px 0;
+}
+
+
+.course-w{
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 8px;
+    padding: 0 16px;
+   
+    
+}
+.course-w-c{
+    display: flex;
+   
+    width: 100%;
+    background-color: rgba(216, 216, 216, 1);
+    padding: 16px 16px 24px 16px;
+}
+.course-w-c-wct{
+    padding: 0;
+}
+.course-w-c-wct p{
+    margin-top: 8px;
+}
+
+.course-w-c img{
+    width: 100%;
+}
+.course-w-c img,
+.course-w-c p{
+    display: none;
+}
+
+
+
+/* ################################ */
+
+
+/* ################################ */
+.thesis{
+    width: 100%;
+    /* padding: 0 0 32px 24px; */
+    background-color: rgba(243, 245, 245, 1);
+    padding: 0;
+}
+/* ______________________________________________ */
+.thesis h2{
+    text-align: center;
+    padding: 32px 0 16px 0;
+    
+}
+/* _______________________________________________ */
+.thesis-w{
+    width: 100%;
+    display: flex;
+}
+/* _______________________________________________ */
+.thesis-l{
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    
+}
+.thesis-l video
+{
+    width: 100%;
+    /* padding-right: 24px; */
+   
+}
+.thesis-l h3{
+    margin: 24px 0 8px 0;
+}
+/* ______________________________________________________ */
+.thesis-r{
+    width: 40%;
+}
+.thesis-r-c{
+    display: flex;
+}
+.thesis-r-c img{
+    width: 35%;
+    height: auto;
+    padding: 16px;
+}
+.thesis-r-c div{
+    width: 65%;
+    flex-flow: column wrap;
+}
+.thesis-w h3,
+.thesis-w p,
+.thesis-r
+{
+    display: none;
+}
+
+
+
+/* ############################## */
+footer p{
+  
+    padding: 16px 24px;
+    border-top: 0px;
+    
+}
+.ft-r{
+    display: none;
+}
+
+
+
 }
