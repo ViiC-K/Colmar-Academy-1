@@ -383,6 +383,9 @@ li{
 .info-r-c p{
     margin: 8px 0;
 }
+.info-r-img-m{
+    display: flex;
+}
 .info-r-c img{
     width: 100%;
     padding: 16px;
